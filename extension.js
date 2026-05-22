@@ -1,5 +1,5 @@
 ({
-    name: "DFPlayer KidBright",
+    name: "DFPlayer", // CAMBIADO: Ahora coincide exactamente con el sufijo de tus archivos de bloques
     description: "Reproductor multimedia MP3/WAV utilizando exclusivamente los pines externos expuestos de la KidBright32.",
     author: "Pablo Cesar Vargas Diaz",
     category: "Device Control",
@@ -7,7 +7,7 @@
     icon: "/static/icon.png",
     color: "#E67E22",
     blocks: [
-        "dfplayer_setup", // Simplificado por el uso de Dropdowns protectores
+        "dfplayer_setup", 
         {
             xml: `
                 <block type="dfplayer_play">
